@@ -1,0 +1,87 @@
+.home-container {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: zoomEffect 15s infinite alternate;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.6)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+
+.since {
+  color: gold;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-size: 60px;
+  font-weight: 800;
+  color: gold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 15px rgba(255, 215, 0, 0.6);
+}
+
+.tagline {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.btn-group .btn {
+  padding: 12px 35px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.4s ease;
+  text-decoration: none;
+}
+
+.explore-btn {
+  background-color: gold;
+  color: black;
+}
+
+.explore-btn:hover {
+  background-color: #ffcc00;
+  transform: scale(1.1);
+}
+
+.book-btn {
+  background-color: crimson;
+  color: white;
+}
+
+.book-btn:hover {
+  background-color: darkred;
+  transform: scale(1.1);
+}
+
+@keyframes zoomEffect {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}

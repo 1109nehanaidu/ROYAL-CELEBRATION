@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: black;
+  color: gold;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #111;
+  border-bottom: 2px solid gold;
+}
+
+.logo {
+  font-size: 24px;
+  color: gold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* HOME */
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px gold;
+}
+
+/* FORM */
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #111;
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 5px;
+}
+
+button {
+  background: gold;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6c200;
+}
+
+/* ABOUT PAGE STYLE */
+.about-box {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px gold;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid gold;
+  margin-top: 40px;
+}
